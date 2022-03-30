@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+       <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fragment_lifecycle"
+            android:title="Fragment Lifecycle"/>
+
+        <item
+            android:id="@+id/nav_toast"
+            android:title="Toast"/>
+        <item
+            android:id="@+id/nav_snackbar"
+            android:title="Snackbar"/>
+
+
+
+           <item
+               android:id="@+id/nav_notification"
+               android:title="Notification"/>
+
+
+           <item
+            android:id="@+id/nav_backgroundservice"
+            android:title="Background Service"/>
+
+           <item
+               android:id="@+id/nav_bottomnav"
+               android:title="Bottom Navigation"/>
+
+
+           <item
+               android:id="@+id/nav_rcvretrofit"
+               android:title="News(RcvRetro)"/>
+
+           <item
+               android:id="@+id/nav_preferenceDataStore"
+               android:title="Preference Data Store"/>
+
+           <item
+               android:id="@+id/nav_sharedPreferences"
+               android:title="Shared Preferences"/>
+       </group>
+
+
+
+        <item android:title="Profile">
+            <menu>
+                <group>
+                    <item
+                        android:id="@+id/nav_login"
+                        android:title="Login"/>
+                </group>
+            </menu>
+        </item>
+
+</menu>
